@@ -10,5 +10,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //нашел айдишник тествью
         val textView: TextView = findViewById(R.id.firstActivity)
+
+        textView.setOnClickListener {moveToNextScreenAgain()}
+    }
+
+    private fun moveToNextScreenAgain() {
+
     }
 }
+
